@@ -1,0 +1,135 @@
+body, html {
+    background-color: #232323;
+}
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+.impact {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+.th-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 3em;
+}
+.primary-text {
+    color: #00c187 !important;
+}
+.secondary-text {
+    color: #0f8b8d !important;
+}
+.th-bg-dark {
+    background-color: #1c1c1c !important;
+    border-bottom: 1px solid #191919;
+    box-shadow: 0 0 9px 2px #191919;
+    position: relative;
+    z-index: 2;
+}
+.th-pright {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 3em;
+}
+.nav-item {
+    height: 100%;
+    font-size: 1.1rem;
+    position: relative;
+}
+.nav-item > a:hover, .nav-item > a:focus {
+    color: #0f8b8d !important;
+    border-bottom: 3px solid #0f8b8d;
+    margin-bottom: -3px;
+}
+.th-dropdown {
+    border-bottom: 3px solid #0f8b8d;
+    margin-bottom: -3px;
+    border-radius: 0;
+    background-color: #111111 !important;
+}
+.dropdown-item {
+    color: #fff;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #0f8b8d !important;
+     background-color: #111111 !important;
+}
+.th-landing {
+    text-align: center;
+    padding-top: 4em;
+}
+.th-heading {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.blind-text {
+    color: #fff !important;
+}
+.th-h-paragraph {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.th-offer {
+    width: 100%;
+    height: 1em;
+    margin-bottom: 1em;
+    background-image: url('http://backgroundcheckall.com/wp-content/uploads/2017/12/diagonal-lines-background-1037.png');
+}
+.th-offer-sec {
+    margin-top: 1em;
+}
+.th-icon {
+    font-size: 3rem !important;
+}
+.i-col {
+   flex-grow: 0;
+}
+.i-text {
+    font-size: 1.1rem;
+}
+.item {
+    margin-top: 1em;
+}
+.form-group > select, .form-group > input {
+    background-color: #1c1c1c !important;
+    border-color: #0f8b8b !important;
+    color: #f7f7f7 !important;
+}
+::placeholder {
+    color: #f7f7f7 !important;
+}
+.primary-overlay {
+    border-color: #00c187 !important;
+    color: #fff !important;
+    background-color: rgba(0,0,0,0) !important;
+}
+.primary-overlay:hover, .primary-overlay:focus {
+    border-color: rgba(0,0,0,0) !important;
+    transition-duration: 0.5s;
+    color: #000 !important;
+    background-color: #00c187 !important;
+}
+.table-logs {
+    background-color: rgba(0,0,0,0);
+    color: #0f8b8d !important;
+}
+.table thead th {
+    border-color: #00c187 !important;
+}
+.table td, .table th {
+    border-top: none !important;
+}
+@media (max-width: 576px) {
+    .th-pright {
+        padding-right: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .th-brand {
+        padding-left: 0 !important;
+    }
+    .th-heading {
+        font-size: 1.7rem;
+    }
+.th-icon {
+    font-size: 2.8rem !important;
+}
+}
