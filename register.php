@@ -2,6 +2,7 @@
 
     include('th-php/settings.php');
     include('th-php/database.php');
+	header("Location: farewell.php");
 
     if(isset($_POST['register'])) {
         
